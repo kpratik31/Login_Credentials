@@ -9,6 +9,7 @@
     if(!$connection){
         die("failed to connect".mysqli_connect_error());
     }
+    
     else{
         echo "Records Successfully";
     }
